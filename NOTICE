@@ -1,0 +1,15 @@
+//---------------------------------------------------------------------------
+// libCC
+//---------------------------------------------------------------------------
+
+This library includes the following 3rd party products which are covered
+under their respective licenses.
+
+glfw
+----
+https://github.com/glfw/glfw
+
+gleq
+----
+https://github.com/glfw/gleq.git
+

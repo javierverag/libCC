@@ -1,0 +1,3 @@
+- Put toolchains here.
+- Put platform specific settings here (e.g emsc.cmake) and include from
+  the main CMakeLists.txt file.

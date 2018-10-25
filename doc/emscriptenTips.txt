@@ -1,0 +1,15 @@
+- Functions must return a value to avoid exceptions (e.g bool functions must
+  always return true or false)
+
+- Sometime when generating the Makefile emscripten issues a warning:
+
+  CMake Warning:
+    Manually-specified variables were not used by the project:
+  
+      CMAKE_TOOLCHAIN_FILE
+
+  The subsequent effect is that some of the toolchain file settings are
+  ignored (surprisingly not all). Maybe the file is cached and and old version
+  used. When functions like glfwCreateWindow are missing this is usually the
+  case, as the setting to use glfw3 has been ignored, and this function is not
+  available in glfw2.
