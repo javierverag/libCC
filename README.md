@@ -1,5 +1,3 @@
-# Build Instructions
-
 # libCC
 
 A simple cross-platform game engine written in C++
@@ -7,6 +5,8 @@ A simple cross-platform game engine written in C++
 - dependencies are keep to the minimum
 - does not use exceptions or streams
 - targets a common subset of OpenGL (webGL, gles2 and desktop)
+
+# Build Instructions
 
 ## Windows and Linux
 
